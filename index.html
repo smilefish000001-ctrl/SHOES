@@ -16,6 +16,7 @@
     h1 { margin:0; color:#fff; font-size:clamp(20px,2.5vw,26px); line-height:1.25; letter-spacing:-.01em; }
     main { padding:clamp(24px,5vw,52px); }
     .updated { margin:0 0 14px; color:var(--muted); font-size:14px; text-align:right; }
+    .updated + .updated { display:none; }
     .summary { padding:22px 24px; background:#eef8fb; border-left:5px solid var(--teal); border-radius:10px; }
     .summary strong { display:block; margin-bottom:6px; color:#123e56; font-size:19px; }
     .legend { display:flex; flex-wrap:wrap; gap:10px; margin:20px 0 0; color:var(--muted); font-size:14px; }
@@ -50,6 +51,7 @@
   <div class="page">
     <header><h1>全球鞋業與鞋機需求情報</h1></header>
     <main>
+      <p class="updated"><time datetime="2026-10-21T07:59:00+08:00">最後更新：2026/10/21 07:59（台北時間）</time></p>
       <p class="updated"><time datetime="2026-10-17T14:06:00+08:00">最後更新：2026/10/17 14:06（台北時間）</time></p>
       <section class="summary" aria-label="本期摘要">
         <strong>本期判斷：局部正面，全面擴產仍保守</strong>
@@ -67,13 +69,20 @@
           <p><strong>商務含義：</strong>供應鏈近期較可能採取設備汰換、節省人力與提升良率，而不是大量擴充傳統產能；應以投資回收期及降低單位成本切入。</p>
           <p><a href="https://www.sec.gov/Archives/edgar/data/320187/000032018726000193/nke-20260831.htm" target="_blank" rel="noopener noreferrer">來源：Nike SEC 季報</a></p>
         </article>
-        <article class="watch">
+        <article class="positive">
+          <h3>2. KPST 因訂單增加，在孟加拉投資第二座鞋材工廠</h3>
+          <p class="meta"><span class="tag positive-label">正面</span><span>信心：高</span><span>日期：2026/10/14</span><span>影響：孟加拉、印度、柬埔寨鞋廠</span></p>
+          <p>中國投資商 KPST 將在 BEPZA 經濟區投資 701 萬美元興建第二座工廠，占地 7,200 平方公尺。年產能規劃包括 1,100 萬雙鞋材配件、2.4 萬立方公尺泡棉、20 萬片裁斷板及 25 萬套裁斷刀模，產品供應孟加拉出口鞋廠及印度、柬埔寨客戶。</p>
+          <p><strong>商務含義：</strong>既有工廠訂單上升並轉化為新廠投資，買機意願明確；可優先接觸泡棉加工、裁斷、模具製造、材料搬運與品檢設備的採購窗口。</p>
+          <p><a href="https://bepza.gov.bd/spotlight/chinese-company-kpst-expands-operations-in-bepza-ez-1-with-us-7-million-investment" target="_blank" rel="noopener noreferrer">來源：孟加拉出口加工區管理局（BEPZA）</a></p>
+        </article>
+        <section class="watch" hidden>
           <h3>2. 裕元 9 月製鞋營收轉為年增，累計降幅仍待收斂</h3>
           <p class="meta"><span class="tag watch-label">初步回溫</span><span>信心：高</span><span>日期：2026/10/12</span><span>影響：寶成／裕元製造基地</span></p>
           <p>裕元 9 月自結營收 6.69 億美元、年增 5.6%，其中製鞋業務單月年增 6.6%；但前九月製鞋業務累計仍年減 3.8%。寶成 9 月合併營收則年增 10.4%，前九月累計年減幅收斂至 0.5%。</p>
           <p><strong>商務含義：</strong>買機意願由負面轉為觀察，適合先追蹤第四季產能利用率、品牌拉貨延續性與瓶頸工站；在連續成長確認前，仍以彈性生產、快速換型及節省人工設備切入。</p>
           <p><a href="https://www.pouchen.com/attachments/article/1123/261012%20PCC%20Monthly%20Sales%20(2026.09)-CH.pdf" target="_blank" rel="noopener noreferrer">來源：寶成官方 9 月營收新聞稿</a></p>
-        </article>
+        </section>
         <article class="positive">
           <h3>3. 鈺齊 9 月營收年增 72%，訂單與產能建置同步增強</h3>
           <p class="meta"><span class="tag positive-label">正面</span><span>信心：高</span><span>日期：2026/10/8</span><span>影響：越南、印尼、柬埔寨</span></p>
