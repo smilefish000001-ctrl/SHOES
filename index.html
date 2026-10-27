@@ -16,7 +16,6 @@
     h1 { margin:0; color:#fff; font-size:clamp(20px,2.5vw,26px); line-height:1.25; letter-spacing:-.01em; }
     main { padding:clamp(24px,5vw,52px); }
     .updated { margin:0 0 14px; color:var(--muted); font-size:14px; text-align:right; }
-    .updated + .updated { display:none; }
     .summary { padding:22px 24px; background:#eef8fb; border-left:5px solid var(--teal); border-radius:10px; }
     .summary strong { display:block; margin-bottom:6px; color:#123e56; font-size:19px; }
     .legend { display:flex; flex-wrap:wrap; gap:10px; margin:20px 0 0; color:var(--muted); font-size:14px; }
@@ -39,24 +38,22 @@
     .tag { padding:3px 9px; font-size:13px; }
     article p { margin:0 0 11px; }
     article p:last-child { margin-bottom:0; }
-    .actions { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+    .actions { margin-top:18px; }
     .action-box { padding:20px 22px; background:#f7fafc; border:1px solid var(--line); border-radius:12px; }
     .action-box h2 { margin-top:0; font-size:21px; }
     ol { margin:0; padding-left:24px; }
     li + li { margin-top:9px; }
-    @media (max-width:760px) { .actions { grid-template-columns:1fr; } article { padding:19px 18px; } }
+    @media (max-width:760px) { article { padding:19px 18px; } }
   </style>
 </head>
 <body>
   <div class="page">
     <header><h1>全球鞋業與鞋機需求情報</h1></header>
     <main>
-      <p class="updated"><time datetime="2026-10-24T07:59:00+08:00">最後更新：2026/10/24 07:59（台北時間）</time></p>
-      <p class="updated"><time datetime="2026-10-21T07:59:00+08:00">最後更新：2026/10/21 07:59（台北時間）</time></p>
-      <p class="updated"><time datetime="2026-10-17T14:06:00+08:00">最後更新：2026/10/17 14:06（台北時間）</time></p>
+      <p class="updated"><time datetime="2026-10-27T11:22:00+08:00">最後更新：2026/10/27 11:22（台北時間）</time></p>
       <section class="summary" aria-label="本期摘要">
         <strong>本期判斷：局部正面，全面擴產仍保守</strong>
-        Nike 鞋類銷售、銷量及中國市場仍弱，相關供應商全面擴充一般產能的意願仍偏低。鈺齊與裕元 9 月營收出現回溫，Stella 越南新廠已投產、印尼與孟加拉新廠預計本季啟用，局部擴產訊號更加明確。印度 Asian Footwears 規劃新增接近現有月產量的產能，現階段應聚焦已公布投產時程的新廠、新產線及能降低人工、提高良率的設備。
+        adidas 第三季營收與獲利創新高，鈺齊營收明顯回升，Stella 與 Asian Footwears 皆有具體新廠時程，局部鞋機需求轉強；但 Nike 鞋類銷量與中國市場仍弱，品牌與品類分化明顯。Prada 集團前三季維持成長，奢侈鞋類供應鏈可優先以柔性、小量多樣、快速換線及品質追溯設備切入。
       </section>
       <div class="legend" aria-label="影響判斷圖例">
         <span class="positive-label">正面：設備需求提升</span><span class="watch-label">觀察：市場或品類分化</span><span class="negative-label">負面：短期擴產偏弱</span>
@@ -77,13 +74,6 @@
           <p><strong>商務含義：</strong>既有工廠訂單上升並轉化為新廠投資，買機意願明確；可優先接觸泡棉加工、裁斷、模具製造、材料搬運與品檢設備的採購窗口。</p>
           <p><a href="https://bepza.gov.bd/spotlight/chinese-company-kpst-expands-operations-in-bepza-ez-1-with-us-7-million-investment" target="_blank" rel="noopener noreferrer">來源：孟加拉出口加工區管理局（BEPZA）</a></p>
         </article>
-        <section class="watch" hidden>
-          <h3>2. 裕元 9 月製鞋營收轉為年增，累計降幅仍待收斂</h3>
-          <p class="meta"><span class="tag watch-label">初步回溫</span><span>信心：高</span><span>日期：2026/10/12</span><span>影響：寶成／裕元製造基地</span></p>
-          <p>裕元 9 月自結營收 6.69 億美元、年增 5.6%，其中製鞋業務單月年增 6.6%；但前九月製鞋業務累計仍年減 3.8%。寶成 9 月合併營收則年增 10.4%，前九月累計年減幅收斂至 0.5%。</p>
-          <p><strong>商務含義：</strong>買機意願由負面轉為觀察，適合先追蹤第四季產能利用率、品牌拉貨延續性與瓶頸工站；在連續成長確認前，仍以彈性生產、快速換型及節省人工設備切入。</p>
-          <p><a href="https://www.pouchen.com/attachments/article/1123/261012%20PCC%20Monthly%20Sales%20(2026.09)-CH.pdf" target="_blank" rel="noopener noreferrer">來源：寶成官方 9 月營收新聞稿</a></p>
-        </section>
         <article class="positive">
           <h3>3. 鈺齊 9 月營收年增 72%，訂單與產能建置同步增強</h3>
           <p class="meta"><span class="tag positive-label">正面</span><span>信心：高</span><span>日期：2026/10/8</span><span>影響：越南、印尼、柬埔寨</span></p>
@@ -112,19 +102,12 @@
           <p><strong>商務含義：</strong>品牌銷售與獲利同步增強，有利供應鏈提高產能利用率及核准效率、柔性產線與品質設備；但生活休閒鞋仍有庫存偏高與折扣壓力，應優先鎖定足球、跑步與訓練鞋產線。</p>
           <p><a href="https://www.adidas-group.com/en/media/press-releases/adidas-reports-record-results-and-increases-full-year-profit-outlook" target="_blank" rel="noopener noreferrer">來源：adidas 官方初步業績</a></p>
         </article>
-        <section class="watch" hidden>
-          <h3>6. 豐泰 9 月營收年減 4.8%，Salomon 仍是局部擴線機會</h3>
-          <p class="meta"><span class="tag watch-label">品類分化</span><span>信心：高</span><span>日期：2026/10/8</span><span>影響：Nike 與 Salomon 產線</span></p>
-          <p>豐泰 9 月合併營收 64.41 億元、年減 4.76%，前九月累計年減 3.13%，顯示主要客戶拉貨仍偏保守；但 Salomon 出貨持續較強，公司已針對相關需求規劃擴充產線。</p>
-          <p><strong>商務含義：</strong>一般產能設備仍應審慎，應直接鎖定 Salomon 越野鞋的專用製程、高混線能力及小量多樣設備，並確認擴線時程與設備決策窗口。</p>
-          <p><a href="https://www.fengtay.com/tw/investor/month" target="_blank" rel="noopener noreferrer">來源：豐泰官方月營收</a>、<a href="https://money.udn.com/money/amp/story/5607/9803963" target="_blank" rel="noopener noreferrer">產業報導</a></p>
-        </section>
         <article class="watch">
-          <h3>7. 強迫勞動禁令擴大，可追溯能力的重要性上升</h3>
-          <p class="meta"><span class="tag watch-label">數位設備正面</span><span>信心：高</span><span>日期：2026/9/15</span><span>影響：出口型鞋廠</span></p>
-          <p>美國貿易代表署表示，截至 2026 年 7 月已有另外 12 個經濟體採用禁止強迫勞動產品進口的措施，包含柬埔寨、印度、印尼、墨西哥與歐盟。</p>
-          <p><strong>商務含義：</strong>可追溯生產批次、工站人員、原料來源及製程紀錄將逐漸成為設備規格；具 MES 連接、條碼／RFID 與生產數據輸出的機台較有優勢。</p>
-          <p><a href="https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/september/ustr-convenes-over-50-trading-partners-provide-training-related-imposing-and-enforcing-forced-labor" target="_blank" rel="noopener noreferrer">來源：美國貿易代表署</a></p>
+          <h3>7. Prada 集團前三季營收成長，奢侈鞋類需求維持韌性</h3>
+          <p class="meta"><span class="tag watch-label">選擇性正面</span><span>信心：高</span><span>日期：2026/10/22</span><span>影響：Prada、Miu Miu、Versace 與高端鞋類供應鏈</span></p>
+          <p>Prada 集團前三季淨營收 45.41 億歐元，按固定匯率年增 15%，排除 Versace 後有機成長 4%；零售銷售按固定匯率年增 11%，其中 Prada 品牌有機成長 2%。第三季有機零售銷售持平，顯示高端市場仍有韌性，但擴產需求不會全面同步。</p>
+          <p><strong>商務含義：</strong>高端鞋類設備需求偏向選擇性正面；應鎖定小量多樣、快速換線、材料精準控制、外觀品質檢測與高追溯性的設備，而非以大量標準產能擴充為主。</p>
+          <p><a href="https://www.pradagroup.com/en/news-media/news-section/26-10-22-prada-group-9m-revenue.html" target="_blank" rel="noopener noreferrer">來源：Prada Group 官方前三季營收更新</a></p>
         </article>
         <article class="positive">
           <h3>8. Asian Footwears 投資印度大型新廠，月產能再增 140 萬雙</h3>
@@ -137,11 +120,7 @@
       <div class="actions">
         <section class="action-box">
           <h2>業務優先追蹤</h2>
-          <ol><li><strong>鈺齊：</strong>越南、印尼、柬埔寨新廠及新產線。</li><li><strong>Stella International：</strong>印尼、孟加拉、越南三座新工廠。</li><li><strong>Asian Footwears：</strong>Haryana 新廠整廠設備與 2027 年 1 月投產時程。</li></ol>
-        </section>
-        <section class="action-box">
-          <h2>建議主動詢問客戶</h2>
-          <ol><li>2027 年新款與新產線中，目前最影響產量或良率的三個工站是哪些？</li><li>面對工資上升與短交期訂單，設備投資要求的回收期限是幾個月？</li><li>品牌是否已要求機台輸出批次、操作人員、原料或品質檢測等可追溯資料？</li></ol>
+          <ol><li><strong>Stella International：</strong>印尼、孟加拉、越南三座新工廠的設備採購與爬坡。</li><li><strong>Asian Footwears：</strong>Haryana 新廠整廠設備與 2027 年 1 月投產時程。</li><li><strong>adidas 供應鏈：</strong>優先鎖定足球、跑步與訓練鞋的效率、品質與柔性設備。</li></ol>
         </section>
       </div>
     </main>
